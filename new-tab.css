@@ -1,0 +1,25 @@
+.note {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #00FF00;
+}
+
+.note textarea {
+  font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+  background-color: #1b2d3b;
+  color: #547687;
+  font-size: 25px;
+  line-height: 1.5em;
+  height: 100%;
+  width: 100%;
+  padding: 3em 15em 3em 15em;
+  border: 0;
+  resize: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+}

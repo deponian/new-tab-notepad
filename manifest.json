@@ -1,0 +1,8 @@
+{
+  "name": "New Tab Notepad",
+  "version": "0.3",
+  "incognito": "split",
+  "chrome_url_overrides": {"newtab": "new-tab.html"},
+  "permissions": ["storage"],
+  "manifest_version": 2
+}
