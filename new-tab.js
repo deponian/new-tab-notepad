@@ -14,9 +14,9 @@
     function save() {
       chrome.storage.sync.set({'noteText': elem.value});
     }
-    // Throttle save so that it only occurs after 50 millisecond without a keypress.
+    // Throttle save so that it only occurs after 5 millisecond without a keypress.
     elem.addEventListener('keydown', function() {
-      saveHandler(save, 50);
+      saveHandler(save, 5);
     });
     elem.addEventListener('blur', save);
     chrome.storage.sync.get('noteText', function(data) {
