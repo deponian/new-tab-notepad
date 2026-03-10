@@ -1,4 +1,4 @@
-.note {
+#note {
   position: fixed;
   top: 0;
   right: 0;
@@ -7,7 +7,7 @@
   background-color: #00FF00;
 }
 
-.note textarea {
+#note textarea {
   font-family: "Droid Serif", Helvetica, Arial, sans-serif;
   background-color: #1b2d3b;
   color: #547687;
