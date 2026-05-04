@@ -1,4 +1,4 @@
-const API = "https://deepl-proxy-three.vercel.app";
+const API = "https://translate.deponian.com";
 
 function bindNoteHandlers() {
   let noteText = document.getElementById('note-text');
